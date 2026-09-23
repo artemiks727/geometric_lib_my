@@ -81,8 +81,8 @@
         ```
 
 ## История изменения проекта с хешами коммитов
-
-    * __`d1f1003`__ : "commentaries added to circle, rectangle, square, triangle"
-    * __`ead5337`__ : "first lab files added"
-    * __`d078c8d`__ : "L-03: Docs added"
-    * __`8ba9aeb`__ : "L-03: Circle and square added"
+* 
+    * __`d1f100`__ "commentaries added to circle, rectangle, square, triangle"
+    * __`ead5337`__ "first lab files added"
+    * __`d078c8d`__ "L-03: Docs added"
+    * __`8ba9aeb`__ "L-03: Circle and square added"
