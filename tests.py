@@ -8,10 +8,10 @@ from triangle import area as triangle_area, perimeter as triangle_perimeter
 
 
 class CircleTestCase(unittest.TestCase):
-    def test_area_positive(self):
+    def test_area(self):
         self.assertAlmostEqual(circle_area(10), math.pi * 100, places=7)
 
-    def test_perimeter_positive(self):
+    def test_perimeter(self):
         self.assertAlmostEqual(circle_perimeter(10), 2 * math.pi * 10, places=7)
 
     def test_area_zero(self):
@@ -19,10 +19,10 @@ class CircleTestCase(unittest.TestCase):
 
 
 class TriangleTestCase(unittest.TestCase):
-    def test_area_positive(self):
+    def test_area(self):
         self.assertEqual(triangle_area(5, 10), 25)
 
-    def test_perimeter_positive(self):
+    def test_perimeter(self):
         self.assertEqual(triangle_perimeter(1, 2, 3), 6)
 
     def test_area_zero(self):
@@ -41,8 +41,8 @@ class SquareTestCase(unittest.TestCase):
 
 
 class RectangleTestCase(unittest.TestCase):
-    def test_area_square_mul(self):
-        self.assertEqual(rectangle_area(10, 10), 100)
+    def test_area(self):
+        self.assertEqual(rectangle_area(10, 15), 150)
 
     def test_perimeter(self):
         self.assertEqual(rectangle_perimeter(10, 10), 40)
