@@ -9,10 +9,10 @@ from triangle import area as triangle_area, perimeter as triangle_perimeter
 
 class CircleTestCase(unittest.TestCase):
     def test_area(self):
-        self.assertAlmostEqual(circle_area(10), math.pi * 100, places=7)
+        self.assertAlmostEqual(circle_area(10), 314.1592654, places=7)
 
     def test_perimeter(self):
-        self.assertAlmostEqual(circle_perimeter(10), 2 * math.pi * 10, places=7)
+        self.assertAlmostEqual(circle_perimeter(10), 62.8318531, places=7)
 
     def test_area_zero(self):
         self.assertEqual(circle_area(0), 0)
